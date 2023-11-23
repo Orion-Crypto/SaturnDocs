@@ -6,10 +6,10 @@ sidebar_position: 1
 
 The **NFTs** page has everything you need to manage your project. On this page you can:
 
--   Add NFTs to your project
--   Delete NFTs from your project
--   Automatically rename all the nfts in your collection
--   Download all the metadata associated with your collection
+-   Add NFTs to your project.
+-   Delete NFTs from your project.
+-   Automatically rename all the nfts in your collection.
+-   Download all the metadata associated with your collection.
 
 ![NFTs Page](/img/nft-projects/nfts-page/nfts-page.png)
 

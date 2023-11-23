@@ -2,56 +2,31 @@
 sidebar_position: 2
 ---
 
-# Project Data
+# NFT Project Data
 
-Documents are **groups of pages** connected through:
+The **NFT Project Data** page allows you to update data related to the overall project:
 
--   a **sidebar**
--   **previous/next navigation**
--   **versioning**
+-   Update the collection name.
+-   Update the price per nft of your collection (in **Ada** or any **Cardano Native Asset**).
+-   Updating the lock date / Policy Id for your collection.
+-   Update the royalty data of your collection.
 
-## Create your first Doc
+![NFT Project Data Page](/img/nft-projects/project-data/nft-project-data-page.png)
 
-Create a Markdown file at `docs/hello.md`:
+## Update Our NFT Project Data
 
-```md title="docs/hello.md"
-# Hello
+Lets update our Collection Name to "Adorable Blobs" and change the price to 12 **Ada** per NFT.
 
-This is my **first Docusaurus document**!
-```
+![NFT Project Data Page](/img/nft-projects/project-data/nft-project-data-page-updated-1.png)
 
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
+Now lets update our lock date to be 1 year in the future and add our address as a royalty address and set the royalty percent to 5%. Your project data page should now look like this:
 
-## Configure the Sidebar
+![NFT Project Data Page](/img/nft-projects/project-data/nft-project-data-page-updated-2.png)
 
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
+Save the changes and our data for our project is complete!
 
-Add metadata to customize the sidebar label and position:
+## Data Info
 
-```md title="docs/hello.md" {1-4}
----
-sidebar_label: "Hi!"
-sidebar_position: 3
----
+In this section we will highlight what each of these fields means for your NFT project.
 
-# Hello
-
-This is my **first Docusaurus document**!
-```
-
-It is also possible to create your sidebar explicitly in `sidebars.js`:
-
-```js title="sidebars.js"
-export default {
-    tutorialSidebar: [
-        "intro",
-        // highlight-next-line
-        "hello",
-        {
-            type: "category",
-            label: "Tutorial",
-            items: ["tutorial-basics/create-a-document"],
-        },
-    ],
-};
-```
+-
