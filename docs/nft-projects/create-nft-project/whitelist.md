@@ -9,13 +9,13 @@ The **Whitelist** page allows you to create rules for who can and can't mint NFT
 -   A **Static Whitelist** where you directly input a user's address and the amount of NFTs they can mint.
 -   A **Dynamic Whitelist** where you set a policy id. If a user has an NFT from that policy id, they can mint the number of NFTs you set. Note, if a user transfers the NFT they used on a dynamic whitelist, the NFT cannot be used again for the same whitelist.
 
-![Whitelist Page](/img/nft-projects/whitelist/whitelist-page.png)
+![Whitelist Page](/img/nft-projects/create-nft-project/whitelist/whitelist-page.png)
 
 ## Add Your First Whitelist
 
 To add a whitelist, click on the "Add Whitelist" button, this will create a whitelist with a series of inputs to fill in. You can have up to 5 whitelists for each NFT Project.
 
-![Whitelist Page](/img/nft-projects/whitelist/add-whitelist.png)
+![Whitelist Page](/img/nft-projects/create-nft-project/whitelist/add-whitelist.png)
 
 There are several parameters we need to fill in to complete the whitelist:
 
@@ -50,6 +50,6 @@ Lets fill in our first whitelist:
 
 Our whitelist page will look like this:
 
-![First Whitelist 1](/img/nft-projects/whitelist/first-whitelist-1.png)
-![First Whitelist 2](/img/nft-projects/whitelist/first-whitelist-2.png)
-![First Whitelist 3](/img/nft-projects/whitelist/first-whitelist-3.png)
+![First Whitelist 1](/img/nft-projects/create-nft-project/whitelist/first-whitelist-1.png)
+![First Whitelist 2](/img/nft-projects/create-nft-project/whitelist/first-whitelist-2.png)
+![First Whitelist 3](/img/nft-projects/create-nft-project/whitelist/first-whitelist-3.png)

@@ -11,7 +11,7 @@ The **NFTs** page has everything you need to manage your project. On this page y
 -   Automatically rename all the nfts in your collection.
 -   Download all the metadata associated with your collection.
 
-![NFTs Page](/img/nft-projects/nfts-page/nfts-page.png)
+![NFTs Page](/img/nft-projects/create-nft-project/nfts-page/nfts-page.png)
 
 ## Add Your First NFT
 
@@ -23,24 +23,24 @@ In these next few sections we will:
 
 First, we will add an NFT to our project by clicking the "Add NFTs" Button
 
-![Add NFT](/img/nft-projects/nfts-page/add-nft.png)
+![Add NFT](/img/nft-projects/create-nft-project/nfts-page/add-nft.png)
 
 Clicking on the edit button in this new NFT will bring us to this screen where we can edit all of the data associated with the NFT
 
 <div class="flex justify-between mb-12">
-  <img src="/img/nft-projects/nfts-page/update-nft-1.png" class="w-12/25" />
-  <img src="/img/nft-projects/nfts-page/update-nft-2.png" class="w-12/25" />
+  <img src="/img/nft-projects/create-nft-project/nfts-page/update-nft-1.png" class="w-12/25" />
+  <img src="/img/nft-projects/create-nft-project/nfts-page/update-nft-2.png" class="w-12/25" />
 </div>
 
 ## Uploading An Image
 
 NFTs can be text files, images, gifs, or even video. For our first NFT, we will upload this adorable blob image.
 
-<img src="/img/nft-projects/nfts-page/blob.png" class="w-1/5" />
+<img src="/img/nft-projects/create-nft-project/nfts-page/blob.png" class="w-1/5" />
 
 Right click the image above and select "Save image as..." to save the image to your computer. Now click on the "Select File(s)" button to upload the blob image to the Saturn site. Your Policy Id will look different from the image below but, here is what your site should look like after uploading.
 
-![Update NFT Blob](/img/nft-projects/nfts-page/update-nft-3.png)
+![Update NFT Blob](/img/nft-projects/create-nft-project/nfts-page/update-nft-3.png)
 
 ## Uploading NFT Data
 
@@ -56,8 +56,8 @@ We have 7 pieces of data that we need to have on our NFT. These are:
 
 Let us update the asset name to "Blob1", update the name to "Blob #1" and add a "Color": "Blue" property to our NFT. Now after saving our NFT, the result will look like this:
 
-![Update NFT Blob 1](/img/nft-projects/nfts-page/update-nft-blob-1.png)
-![Update NFT Blob 2](/img/nft-projects/nfts-page/update-nft-blob-2.png)
+![Update NFT Blob 1](/img/nft-projects/create-nft-project/nfts-page/update-nft-blob-1.png)
+![Update NFT Blob 2](/img/nft-projects/create-nft-project/nfts-page/update-nft-blob-2.png)
 
 Congratulations! We have set up our first NFT in this project!
 
@@ -65,7 +65,7 @@ Congratulations! We have set up our first NFT in this project!
 
 After hitting the purple back button on the page our nft page will look like this:
 
-![Managing Project NFTs](/img/nft-projects/nfts-page/nft-blob-project.png)
+![Managing Project NFTs](/img/nft-projects/create-nft-project/nfts-page/nft-blob-project.png)
 
 From here we do several things:
 
@@ -73,6 +73,6 @@ From here we do several things:
 -   We can download our project's metadata by clicking on "Show Adv." and then clicking on "Download Metadata"
 -   We can auto name all nfts in our project to match our project name
 
-![Managing Project NFTs](/img/nft-projects/nfts-page/nfts-page-adv.png)
+![Managing Project NFTs](/img/nft-projects/create-nft-project/nfts-page/nfts-page-adv.png)
 
 In the next section we will go over our NFT Project Data!
