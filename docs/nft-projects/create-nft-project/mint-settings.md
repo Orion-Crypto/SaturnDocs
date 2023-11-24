@@ -4,7 +4,11 @@ sidebar_position: 6
 
 # Mint Settings
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+The mint settings page includes all of the settings you need to controll how your mint will function. You can sell NFTs via the standard mint process or you can mint NFTs yourself into your wallet.
+
+Before minting can begin, you need to deploy the minting smart contract on the cardano blockchain. By clicking "Deploy Contract" you will be asked to sign a transaction that will put the smart contract on the blockchain at a specific transaction hash and transaction index so it can be found for future use.
+
+![Mint Settings Contract Deploy](/img/nft-projects/mint-settings/mint-settings-contract.png)
 
 Docusaurus has **much more to offer**!
 
