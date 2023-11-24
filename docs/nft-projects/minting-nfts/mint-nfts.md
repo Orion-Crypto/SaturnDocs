@@ -1,23 +1,24 @@
 ---
-sidebar_position: 6
+sidebar_position: 1
 ---
 
-# Congratulations!
+# Minting NFTs
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+Now that we have gone over how to create your NFT project it's time to showcase how your supporters can mint your NFTs! Using the link provided in your "Mint Settings" page your supports can reach the minting page that should look like this:
 
-Docusaurus has **much more to offer**!
+![Mint Page](/img/minting-nfts/mint-nfts/mint-page.png)
 
-Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.
+In order to mint the NFTs a user must:
 
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
+-   Connect their wallet by hovering over the "Connect Wallet" button and selecting the wallet they want to pay with.
+-   Update the Quantity to how many NFTs they want to mint (max of 10 NFTs at once)
+-   Click the "Mint NFT!" or "Mint NFTs!" button
+-   Sign the mint transaction
 
-## What's next?
+![Mint Page Wallet](/img/minting-nfts/mint-nfts/mint-page-wallet.png)
+![Mint Page Wallet Connected](/img/minting-nfts/mint-nfts/mint-page-wallet-connected.png)
+![Mint Page Minting](/img/minting-nfts/mint-nfts/mint-page-minting.png)
 
--   Read the [official documentation](https://docusaurus.io/)
--   Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)
--   Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)
--   Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
--   Add a [search bar](https://docusaurus.io/docs/search)
--   Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
--   Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+After a support has done the above steps they will be greeted with a success screen and a random NFT from your project will be minted to their wallet!
+
+![Mint Page Success](/img/minting-nfts/mint-nfts/mint-page-success.png)
