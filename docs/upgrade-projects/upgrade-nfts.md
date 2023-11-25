@@ -1,5 +1,7 @@
 ---
-sidebar_position: 1
+id: upgrade-nfts
+title: Upgrade NFTs
+sidebar_position: 2
 ---
 
 # Upgrading NFTs
