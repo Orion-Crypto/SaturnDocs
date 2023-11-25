@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Mint Settings
 
-The mint settings page includes all of the settings you need to controll how your mint will function. You can sell NFTs via the standard mint process or you can mint NFTs yourself into your wallet.
+The mint settings page includes all of the settings you need to control how your mint will function. You can sell NFTs via the standard mint process or you can mint NFTs yourself into your wallet.
 
 ## Deploy Contract
 

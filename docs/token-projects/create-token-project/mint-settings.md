@@ -1,43 +1,28 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
-# Create an Token Project
+# Mint Settings
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+The mint settings page allows us to do 2 things with our Token Project:
 
--   `src/pages/index.js` → `localhost:3000/`
--   `src/pages/foo.md` → `localhost:3000/foo`
--   `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+-   **Mint Tokens**
+-   **Burn Tokens**
 
-## Create your first React Page
+## Deploy Contract
 
-Create a file at `src/pages/my-react-page.js`:
+Before minting or burning can begin, you need to deploy the minting smart contract on the cardano blockchain. By clicking "Deploy Contract" you will be asked to sign a transaction that will put the smart contract on the blockchain at a specific transaction hash and transaction index so it can be found for future use.
 
-```jsx title="src/pages/my-react-page.js"
-import React from "react";
-import Layout from "@theme/Layout";
+![Mint Settings Contract Deploy](/img/token-projects/create-token-project/mint-settings/deploy-contract.png)
 
-export default function MyReactPage() {
-    return (
-        <Layout>
-            <h1>My React page</h1>
-            <p>This is a React page</p>
-        </Layout>
-    );
-}
-```
+![Mint Settings Contract Deploy](/img/token-projects/create-token-project/mint-settings/deploy-contract-payment.png)
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
+After signing the transaction and putting the contract on the blockchain, your app will look like this:
 
-## Create your first Markdown Page
+![Select Mint Type](/img/token-projects/create-token-project/mint-settings/select-mint-type.png)
 
-Create a file at `src/pages/my-markdown-page.md`:
+Lets try minting some tokens! Click on our Blob token that we created and click the yellow "Mint Token" button at the top. If we had multiple tokens in the project we could mint both at once as well.
 
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
+![Select Mint Type 2](/img/token-projects/create-token-project/mint-settings/select-mint-type-2.png)
 
-This is a Markdown page
-```
-
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+After clicking the yellow "Mint Token" button we will now be asked to confirm

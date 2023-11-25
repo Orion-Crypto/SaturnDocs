@@ -1,43 +1,20 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# Create an Token Project
+# Token Project Data
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+The **Token Project Data** page allows you to update data related to the overall project:
 
--   `src/pages/index.js` → `localhost:3000/`
--   `src/pages/foo.md` → `localhost:3000/foo`
--   `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+-   Update the Token Project name.
+-   Update the lock date / Policy Id for your token project.
 
-## Create your first React Page
+![Token Project Data Page](/img/token-projects/create-token-project/token-project-data/token-project-data-page.png)
 
-Create a file at `src/pages/my-react-page.js`:
+# Updating Our Token Project Data
 
-```jsx title="src/pages/my-react-page.js"
-import React from "react";
-import Layout from "@theme/Layout";
+Lets update our token project data. First lets change the name of the project to "Blob" and lets se the Lock Date to a year in the future. After saving, the app will update our Policy Id (you will have a different policy id then the images shown) and our screen should look similar to this:
 
-export default function MyReactPage() {
-    return (
-        <Layout>
-            <h1>My React page</h1>
-            <p>This is a React page</p>
-        </Layout>
-    );
-}
-```
+![Token Project Data Save](/img/token-projects/create-token-project/token-project-data/token-project-data-page-save.png)
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
-
-## Create your first Markdown Page
-
-Create a file at `src/pages/my-markdown-page.md`:
-
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+Now that we have updated all of our token data, it's time to check out the mint settings!
