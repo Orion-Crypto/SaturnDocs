@@ -2,27 +2,23 @@
 sidebar_position: 1
 ---
 
-# Stake Project Page
+# Stake Data Page
 
-The **Stake Projects** page is the first stop when creating your Stake project. Here you can create new projects or delete old ones.
+The stake data page is where you interact with your newly created Stake Project
 
-## User Interface
+![Stake Data Page new project](/img/stake-projects/stake-data-page/stake-data-page-01.png)
 
-The stake project page is where you interact with your newly created Stake Project
+The various Tabs on the Stake Project Page allow you to edit parts of your new Stake Project.
 
-(Picture of empty Stake project page)
+The default tab, "Staking Data" allows you to edit the main aspects of your stake project.
 
-The various Tabs on the Stake Project Page allow you to edit parts of your new Stake Project
-
-[Stakeing Data]
-
-This tab allows you to edit the main aspects of your stake project. 
+[[Staking Data]]
 
 Stake project name: 
 
 This will be the name for your Stake Project within the Saturn Database. 
 
-(Picture of it filled out)
+![Stake Data Page Stake Project Name](/img/stake-projects/stake-data-page/stake-data-page-02.png)
 
 Staking NFT Policy Id:
 
@@ -30,11 +26,11 @@ This field is meant for the policy id of the NFT project you want to be able to 
 
 A holder of the NFT of this policy id will be able to stake this NFT with the project, and earn daily rewards in doing so. 
 
-The NFT never leaves the wallet, "Staking" the NFT just means the system puts a datum into the SmartContract associated with this project. 
+The NFT never leaves the wallet, "Staking" the NFT just means the system puts a datum into the Smart-Contract associated with this project. 
 
-i.e. if you input the policy id of "123", which is the policy id of the AdaBlobs collection, then you would be able to "stake" your blob, and earn daily rewards by doing so. 
+i.e. if you input the policy id of "4a4c17cc89b90f7239ce83f41e4f47005859870178f4e6815b1cd318", which is the policy id of the AdaBlobs collection, then you would be able to "stake" your blob, and earn daily rewards by doing so. 
 
-(Picture of such)
+![Stake Data NFT Policy Id](/img/stake-projects/stake-data-page/stake-data-page-03.png)
 
 [[Token Data]]
 
@@ -42,48 +38,56 @@ Token Policy Id:
 
 This is the policy ID of the token you want to distribute as rewards to people who stake with your project. 
 
-for example, the token of The Ape Society, "$Society" ($SOC) has a Policy ID of: "25f0fc240e91bd95dcdaebd2ba7713fc5168ac77234a3d79449fc20c"
+for example, the token of The Ape Society, "$Society" ($SOC) has a Policy ID of: "25f0fc240e91bd95dcdaebd2ba7713fc5168ac77234a3d79449fc20c", so you would enter that in here.
 
-(Picture)
+![Stake Data Token Policy Id](/img/stake-projects/stake-data-page/stake-data-page-04.png)
 
 Token Hex Asset Name:
 
 This is the Hex Asset Name of the token you want to distribute as rewards to people who stake with your project. 
 
-Be careful, it can show up differently in some wallets. The best way to find this is by typing in your token's policy ID into "Cardanoscan.com"
+Be careful, it can show up differently in some wallets. The best way to find this is by typing in your token's policy ID into ["Cardanoscan.io"](https://cardanoscan.io/)
 
-(Picture of such)
+![Stake Data Token Policy Id in Cardanoscan.io](/img/stake-projects/stake-data-page/stake-data-page-05.png)
 
-Once you do so, select the one that has more than one token in distribution
+Once you do such, you click the fingerprint of the token you have chosen. 
 
-(Picture of such)
+![Stake Data Token token fingerprint Cardanoscan.io](/img/stake-projects/stake-data-page/stake-data-page-06.png)
+
+If your token has more than one option (as in the case of a CIP-68 Token), click the one that has more than one token in distribution
+
+![Stake Data Token Click the one with more than one token in distribution](/img/stake-projects/stake-data-page/stake-data-page-07.png)
+
+Once you have selected such, you can find the hex asset name here: 
+
+![Stake Data Token Showing the Hex asset](/img/stake-projects/stake-data-page/stake-data-page-08.png)
+
+So now we enter the hex asset name into the input field:
+
+![Stake Data Token Entering in Hex Asset](/img/stake-projects/stake-data-page/stake-data-page-09.png)
 
 Total Supply:
 
 This number represents the total supply of tokens you are putting into the stake contract when you add tokens to it. This will be the pool of tokens that are distributed to the 
-users that stake to your Stake Project. In the below example, I want to put 5 million (5,000,000) tokens into the smart contract.
+users that stake to your Stake Project. In the below example, I want to put 5 million (5,000,000) tokens into the smart contract. This is the amount of tokens you will be putting in once you begin adding tokens to the contract (this will be described later in the tutorial)
 
-(Pic)
+![Stake Data Token total supply](/img/stake-projects/stake-data-page/stake-data-page-10.png)
 
 Daily Stake Tokens:
 
 This is the amount of tokens an individual earns per day for staking one of their NFTs of the main Stake Project Policy Id. 
 
-Example, if this is set to 10, then each day a staked NFT will earn 10 tokens, which can be claimed at anytime. 
+For Example, the default value is set to 10 daily stake tokens, so each day a staked NFT will earn 10 tokens, which can be claimed at anytime.
 
 Token Decimals:
 
-If you do not know what this is, leave it at 6. Each Token on the Cardano blockchain is made up of small "subunits" 
+If you do not know what this is, leave it at 6. Each Token on the Cardano blockchain is made up of small "subunits". 
 
 For example, 1 "Society" (the official Token of "The Ape Society" mentioned above) is actually composed of 1,000,000 sub-tokens. 
 
 This allows the Cardano Blockchain to process values such as 0.5 tokens (500,000 sub-tokens) behind the scenes. 
 
-The default value (especially with tokens created by Saturn) is 6, but if your not sure how many sub-tokens your token is created with, 
-
-Check the token on Cardanoscan and divide it by what it appears as there vs what it appears as in your wallet
-
-(Image example)
+The default value (especially with tokens created by Saturn) is 6, this reflects the power multiplier of how your tokens appear. for example, 1 Ada is comprised of 1,000,000 lovelaces, and thus, has a decimal of 6, due to 1 ada being 10^6 lovelaces. 
 
 [[Fee Data]]
 
@@ -91,4 +95,6 @@ Price:
 
 This Input field details the price that a person pays (in Ada) to you (The project owner) each time an NFT is claimed for the rewards. 
 
-For instance, if I stake an NFT, wait a number of days, and then unstake, if the Price is set to 1 Ada, then I will pay 1 Ada to the project owner in the transaction when unstaking the NFT
+For instance, if I stake an NFT, wait a number of days, and then claim the tokens or unstake, if the Price is set to 1 Ada, then I will pay 1 Ada to the project owner in the transaction when claiming or unstaking the NFT to get the rewards
+
+![Stake Data Fee example](/img/stake-projects/stake-data-page/stake-data-page-11.png)

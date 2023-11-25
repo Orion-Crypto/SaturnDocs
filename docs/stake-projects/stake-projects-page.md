@@ -6,7 +6,7 @@ sidebar_position: 1
 
 The **Stake Projects** page is the first stop when creating your Stake project. Here you can create new projects or delete old ones.
 
-## User Interface
+![Stake Project Page](/img/stake-projects/stake-project-page/stake-project-page-01.png)
 
 ![NFT Project Page](/img/nft-projects/create-nft-project/nft-project-page/nft-project-page.png)
 
@@ -22,13 +22,11 @@ After clicking the "Create Stake Project" button, a new Stake Project will appea
 
 In the Stake Project Page, we can alter the project, using the "Select Stake Projects" button.
 
-(Circled Stake Projects button)
-
-(Everything turns after pressing button)
+![Stake Project Page select project button](/img/stake-projects/stake-project-page/stake-project-page-03.png)
 
 Once the "Select Stake Projects" button is pressed, you can select one, or many stake projects.
 
-(One selected, two selected)
+![Stake Project Page selecting a project](/img/stake-projects/stake-project-page/stake-project-page-04.png)
 
 You can unselect the projects by clicking on them again, of clicking the "Deselect Stake Projects" button
 
