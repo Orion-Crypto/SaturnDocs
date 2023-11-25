@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Minting NFTs
 
-Now that we have gone over how to create your NFT project it's time to showcase how your supporters can mint your NFTs! Using the link provided in your "Mint Settings" page your supports can reach the minting page that should look like this:
+Now that we have gone over how to create your NFT project it's time to showcase how your supporters can mint your NFTs! Using the link provided in your "Mint Settings" page your supporters can reach the minting page that should look like this:
 
 ![Mint Page](/img/nft-projects/mint-nfts/minting-nfts/mint-page.png)
 
