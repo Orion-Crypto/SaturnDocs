@@ -2,13 +2,11 @@
 sidebar_position: 1
 ---
 
-# Stake Project Page
-
-The **Stake Projects** page is the first stop when creating your Stake project. Here you can create new projects or delete old ones.
-
-## User Interface
+# Stake Multiplier Page
 
 The Stake Project Multipliers page is where you can assign multiplier values to your stake project depending on the trait of an NFT. 
+
+![Stake Multipliers screen](/img/stake-projects/stake-multipliers-page/stake-multipliers-page-01.png)
 
 There are two sections, Staking NFT Multiplier Rules, and Pairing NFT Multiplier Rules. 
 
@@ -18,21 +16,23 @@ A stake Multiplier Rule enables you to add a multiplier depending on a particula
 
 For example, let's assume you hold an "AdaBlobs" NFT. AdaBlobs have a trait called "Color". 
 
-If I wanted to make blobs of a certain colors earn more, I would make a multiplier. 
+If you wanted to make blobs of a certain colors earn more, you would create a multiplier. 
 
-If I wanted to make a blue blob earn 50% more staking rewards than blobs of other colors, then I would enter the policy Id of the adablobs NFT project, the name of the trait ("Color"), the value of the trait ("Blue"), and finally how much the earned tokens is to be multiplied. Since in our example we decided to have it earn 50% more than normal Adablob tokens, we would put 150%
+If you wanted to make a blue blob earn 50% more staking rewards than blobs of other colors, then you would enter the policy Id of the adablobs NFT project, the name of the trait ("Color"), the value of the trait ("Blue"), and finally how much the earned tokens is to be multiplied. Since in our example we decided to have it earn 50% more than normal Adablob tokens, we would put 150%, or 1.5
 
-(Image of how we put it)
+![Stake Multipliers multiplier example](/img/stake-projects/stake-multipliers-page/stake-multipliers-page-02.png)
 
 If our adablobs were earning 10 tokens a day from being staked, this means any adablob with the "Color" trait of "Blue" would be earning 15 tokens a day
 
 **Warning** 
 
-Giving a project a multiplier on a trait means that it will now add all multipliers together and multiply the original amount by such. This means for a particular trait, if it matches nothing, it will come out with a multiplier of zero. So if you do choose a trait to have a multiplier, it is important to add all of the values of that trait to be accounted for, the value being 1 if there is no multiplier
+Giving a project a multiplier on a trait means that it will now add all multipliers together and multiply the original amount by such. 
 
-In our example below, we have decided that "Blue" should have a multiplier of 1.5 (for a 50% increase, or a total of 150%), and Black to have a multiplier of 2 (for twice the amount of tokens). All other multipliers are set to 1, so that it is simply the normal tokens earned (10) x 1.   10 x 1 = 10
+This means for a particular trait, if it matches nothing, it will come out with a multiplier of zero. So if you do choose a trait to have a multiplier, it is important to add all of the values of that trait to be accounted for, the value being 1 if there is no multiplier
 
-(Picture here)
+In our example below, we have decided that "Blue" should have a multiplier of 1.5 (for a 50% increase, or a total of 150%), and Black to have a multiplier of 2 (for twice the amount of tokens). All other multipliers are set to 1, so that it is simply the normal amount of tokens earned (10) x 1.   10 x 1 = 10
+
+![Stake Multipliers completely filled out multiplier example](/img/stake-projects/stake-multipliers-page/stake-multipliers-page-03.png)
 
 [[Pairing NFT Multiplier Rules]]
 
@@ -48,7 +48,7 @@ Say I wanted a system where, if your staked "Adablob" and paired it with an "Ada
 
 Let's assume I wanted an adablob with an adahat with the trait "Type" equalling "Wizard hat" to accumulate twice the amount of normal tokens. Let's also assume that I wanted an adablob paired with an adahat with the trait "Type" equalling "Top Hat" to accumulate 50% more tokens than when simply staked alone. The below is what you would do. 
 
-(Image showing)
+![Stake Multipliers completely filled out multiplier example](/img/stake-projects/stake-multipliers-page/stake-multipliers-page-04.png)
 
 "Main Policy Id" 
 
@@ -78,7 +78,7 @@ The value is the value of the trait you are creating the multiplier for. In our 
 
 This is the multiplier value of the rule. In our above example, it was 1.5 for blue, signifying a 50% increase (or total of 150%), and 2 for black (signifying earning twice the amount of rewards for this trait)
 
-[[Pairing]]
+[[Pairing]] (Advanced)
 
 "But how does one Pair NFTs?"
 

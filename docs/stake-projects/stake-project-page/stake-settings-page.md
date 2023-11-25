@@ -2,19 +2,19 @@
 sidebar_position: 1
 ---
 
-# Staking Settings page
-
-The **Stake Projects** page is the first stop when creating your Stake project. Here you can create new projects or delete old ones.
-
-## User Interface
+# Stake Settings page
 
 The Stake Settings page is where one can deploy the Smart Contract for their Stake Project, and where one can add the tokens from their wallet into the Deployed Stake Contract:
+
+![Stake Settings page](/img/stake-projects/stake-settings-page/stake-settings-page-01.png)
 
 Note: Before one can deploy the Smart Contract for their project, they must contact us at the Saturn Discord to discuss with us payment for Contract Deployment for their project. 
 
 Step 1: Deploy Contract
 
-The "Deploy Contract" button is used to deploy the Smart Contract for your Stake Project. Pressing this button will cause a transaction to appear that will send the Smart Contract into the blockchain. 
+The "Deploy Contract" button is used to deploy the Smart Contract for your Stake Project. Pressing this button will cause a transaction to appear that will send the Smart Contract into the blockchain.
+
+![Stake Settings page](/img/stake-projects/stake-settings-page/stake-settings-page-02.png)
 
 Once the Smart Contract has been deployed, you can begin staking to it with the approved NFTs
 
