@@ -17,8 +17,15 @@ As you can see, this is identical to the [NFT Project Data](/docs/nft-projects/c
 
 ![Wormhole Data Page 2](/img/wormhole-projects/create-wormhole-project/wormhole-data-page/wormhole-data-page-2.png)
 
-However, you can alter the NFT data by clicking on each individual NFT and following the same steps as in the [NFTs Page](/docs/nft-projects/create-nft-project/nfts-page.md) guide.
+The values can be altered and saved the save as a regular NFT Project. Lets make the following changes:
 
-![Wormhole NFTs](/img/wormhole-projects/create-wormhole-project/wormhole-nfts-page/wormhole-nfts.png)
+-   Set Collection Name to "New Blobs"
+-   Set Price to 20 **Ada**
+-   Set the Lock Date to 1 year in the future
+-   Set a 5% royalty for our address.
 
-In this case, since I only minted 4 NFTs from the project (you may have minted less or more) I only see 4 NFTs in my user interface. IN the next section we will go over the "Wormhole Data"
+Save these values and our Wormhole Data page should look like this:
+
+![Wormhole Data Page Edited 1](/img/wormhole-projects/create-wormhole-project/wormhole-data-page/wormhole-data-page-edited-1.png)
+
+![Wormhole Data Page Edited 2](/img/wormhole-projects/create-wormhole-project/wormhole-data-page/wormhole-data-page-edited-2.png)
