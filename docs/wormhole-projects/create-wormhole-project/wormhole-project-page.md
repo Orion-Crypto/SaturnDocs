@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Wormhole Project Page
+# Wormhole Project
 
-The **Wormhole Projects** page is the first stop when creating your wormhole project. The wormhole is primarily designed to convert CIP-25 NFTs to CIP-68. It can also be used to remint your collection, or alter the art without inflating the supply.
+The **Wormhole Projects** page is the first stop when creating your wormhole project. **The wormhole is primarily designed to convert CIP-25 NFTs to CIP-68.** It can also be used to remint your collection, or alter the art without inflating the supply.
 
 ## User Interface
 
@@ -34,4 +34,5 @@ After 1 minute, refresh the page and you should see something similar to this:
 
 ![Wormhole Policy Id Import](/img/wormhole-projects/create-wormhole-project/wormhole-project-page/wormhole-project-import-complete.png)
 
-Congratulations! We have successfully created our wormhole project and imported all of our NFTs! In the next sections we will update this project and get it ready for NFT swapping!
+Congratulations! We have succe+
+ssfully created our wormhole project and imported all of our NFTs! In the next sections we will update this project and get it ready for NFT swapping!
