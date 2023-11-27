@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the Saturn Tutorial where we will show you how to create Smart Contracts and NFTs on the Cardano Blockchain using [Saturn](https://saturnnft.io)!
 
 ## Getting Started
 

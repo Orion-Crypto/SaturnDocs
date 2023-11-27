@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Multi Asset Payments
 
-Now we will show you how supports can mint NFTs using any Cardano Native Asset as payment. As detailed in the [nft project data](/docs/nft-projects//create-nft-project/project-data.md) page, we first need to set up our advanced pricing. In this case we will show an example using the Ape Society's **$SOC** token.
+Now we will show you how supports can mint NFTs using any Cardano Native Asset as payment. As detailed in the [nft project data](/docs/nft-projects/create-nft-project/project-data.md) page, we first need to set up our advanced pricing. In this case we will show an example using the Ape Society's **$SOC** token.
 
 ![Price Setup](/img/nft-projects/mint-nfts/multi-asset-mints/price-setup.png)
 

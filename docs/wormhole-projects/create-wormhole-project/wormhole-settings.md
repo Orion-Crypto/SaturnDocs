@@ -35,7 +35,7 @@ Lets Mint our NFTs directly into the wormhole. First click on the "Mint CIP-68 N
 
 ![Wormhole Direct Mint](/img/wormhole-projects/create-wormhole-project/wormhole-settings/wormhole-direct-mint.png)
 
-Similarly to the [Mint NFTs](/docs/nft-projects//create-nft-project/mint-settings.md) page, we now have the option of directly clicking on our NFTs and minting them. Lets mint an NFT into the wormhole!
+Similarly to the [Mint NFTs](/docs/nft-projects/create-nft-project/mint-settings.md) page, we now have the option of directly clicking on our NFTs and minting them. Lets mint an NFT into the wormhole!
 
 -   Click on "Blob #3"
 -   Click the yellow "Mint NFT" button
