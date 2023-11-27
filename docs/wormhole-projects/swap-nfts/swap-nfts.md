@@ -18,6 +18,6 @@ In order for users to swap thier NFTs, a user must:
 ![Swap NFTs Select](/img/wormhole-projects/wormhole-nfts/swap-nfts/swap-nfts-select.png)
 ![Swap NFTs Select Sign](/img/wormhole-projects/wormhole-nfts/swap-nfts/swap-nfts-select-sign.png)
 
-After a support has done the above steps they will be greeted with a success screen and a random NFT from your project will be minted to their wallet!
+After signing the transaction, your supported will have their new NFT! If they want to swap back, they can at any time by click on the "New View NFTs" button and converting their new NFT back to the old one.
 
 ![Swap NFTs Congrats](/img/wormhole-projects/wormhole-nfts/swap-nfts/swap-nfts-congrats.png)
