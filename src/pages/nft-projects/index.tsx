@@ -21,7 +21,7 @@ const NFTProjects = () => {
                         className="bg-white rounded-md text-gray-500 px-4 py-2"
                         to="/docs/intro"
                     >
-                        Create NFTs Tutorial - 20min ⏱️
+                        Create NFTs Tutorial - 15 min ⏱️
                     </Link>
                 </div>
             </div>

@@ -21,7 +21,7 @@ function HomepageHeader() {
                         className="button button--secondary button--lg"
                         to="/docs/intro"
                     >
-                        Create NFTs Tutorial - 20min ⏱️
+                        Create NFTs Tutorial - 15 min ⏱️
                     </Link>
                 </div>
             </div>
