@@ -9,11 +9,12 @@ const config: Config = {
     favicon: "img/favicon.ico",
 
     // Set the production url of your site here
-    //url: "https://saturnnft.io/",
-    url: "https://orion-crypto.github.io/",
+    url: "https://docs.saturnnft.io/",
+    //url: "https://orion-crypto.github.io/",
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: "/SaturnDocs/",
+    baseUrl: "/",
+    //baseUrl: "/SaturnDocs/",
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
