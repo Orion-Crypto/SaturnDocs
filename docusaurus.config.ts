@@ -2,6 +2,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 import type { Config } from "@docusaurus/types";
 import { themes as prismThemes } from "prism-react-renderer";
 
+// Configuring Github Pages Here
 const config: Config = {
     title: "Saturn Tutorial",
     tagline:
