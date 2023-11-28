@@ -18,8 +18,8 @@ const config: Config = {
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: "Orion-Crypto", // Usually your GitHub org/user name.
-    projectName: "orion-crypto.github.io", // Usually your repo name.
-    deploymentBranch: "main",
+    projectName: "SaturnDocs", // Usually your repo name.
+    deploymentBranch: "deploy",
     trailingSlash: false,
 
     onBrokenLinks: "throw",
