@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Image / Metadata Upload
 
-The **Upload Images** page allows you to bulk upload both images and metadata for your Upgrade Project. This is very similar to tyhe [Upload Images](/docs/upgrade-projects/create-upgrade-project/image-metadata-upload/upload-images-page.png) page in the NFT Project section.
+The **Upload Images** page allows you to bulk upload both images and metadata for your Upgrade Project. This is very similar to tyhe [Upload Images](/docs/upgrade-projects/create-upgrade-project/image-metadata-upload.md) page in the NFT Project section.
 
 ![Upload Images Page](/img/upgrade-projects/create-upgrade-project/image-metadata-upload/upload-images-page.png)
 

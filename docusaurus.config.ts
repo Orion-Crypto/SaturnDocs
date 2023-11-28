@@ -2,7 +2,6 @@ import type * as Preset from "@docusaurus/preset-classic";
 import type { Config } from "@docusaurus/types";
 import { themes as prismThemes } from "prism-react-renderer";
 
-// Configuring Github Pages Here
 const config: Config = {
     title: "Saturn Tutorial",
     tagline:
@@ -10,7 +9,8 @@ const config: Config = {
     favicon: "img/favicon.ico",
 
     // Set the production url of your site here
-    url: "https://saturnnft.io/",
+    //url: "https://saturnnft.io/",
+    url: "https://orion-crypto.github.io/",
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: "/",
@@ -18,7 +18,8 @@ const config: Config = {
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: "Orion-Crypto", // Usually your GitHub org/user name.
-    projectName: "saturn", // Usually your repo name.
+    projectName: "orion-crypto.github.io", // Usually your repo name.
+    trailingSlash: false,
 
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
@@ -41,10 +42,10 @@ const config: Config = {
     // Even if you don't use internationalization, you can use this field to set
     // useful metadata like html lang. For example, if your site is Chinese, you
     // may want to replace "en" with "zh-Hans".
-    i18n: {
-        defaultLocale: "en",
-        locales: ["en"],
-    },
+    // i18n: {
+    //     defaultLocale: "en",
+    //     locales: ["en"],
+    // },
 
     presets: [
         [

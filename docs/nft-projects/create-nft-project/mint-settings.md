@@ -41,7 +41,7 @@ And congratulations we have started our NFT mint! You can have your supporters n
 
 ![Mint Settings Minter](/img/nft-projects/create-nft-project/mint-settings/mint-settings-minter.png)
 
-More informtation about how your supporters can mint your NFTs will be highlighted in the [Mint NFTs](docs/nft-projects/create-nft-project/minting-nfts/mint-nfts.md) page
+More informtation about how your supporters can mint your NFTs will be highlighted in the [Mint NFTs](/docs/nft-projects/minting-nfts/mint-nfts.md) page
 
 You can end and restart the mint at anytime by clicking the "End Mint" or the "Start Mint" buttons on the **Mint Settings** page respectively.
 
