@@ -29,7 +29,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'API Integration',
-    image: require('@site/static/img/nft-minting.png').default,
+    image: require('@site/static/img/api-documentation/api-documentation.png').default,
     description: (
       <>
         Mint NFTs or Execute Smart Contracts directly from our APIs for maximum customization!
