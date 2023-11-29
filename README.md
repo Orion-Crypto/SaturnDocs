@@ -18,4 +18,4 @@ $ pnpm run deploy
 
 This will deploy the Saturn documentation page to https://docs.saturnnft.io
 
-[Saturn Documentation Repository](/img/api-documentation/saturn-documentation.png) 
+![Saturn Documentation Repository](/img/api-documentation/saturn-documentation.png) 
