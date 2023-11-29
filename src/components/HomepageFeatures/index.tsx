@@ -23,8 +23,7 @@ const FeatureList: FeatureItem[] = [
     image: require('@site/static/img/contract.png').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Execute and Deploy Cardano Smart Contracts with automatic transaction building!
       </>
     ),
   },

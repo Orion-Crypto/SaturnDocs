@@ -84,6 +84,11 @@ const config: Config = {
                     label: "Tutorial",
                 },
                 {
+                    href: "/docs/api-documentation",
+                    position: "left",
+                    label: "API",
+                },
+                {
                     href: "https://github.com/Orion-Crypto/Saturn-V2-Integration",
                     label: "GitHub",
                     position: "right",
