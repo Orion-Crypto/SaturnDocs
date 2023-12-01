@@ -10,6 +10,8 @@ The **Wormhole Projects** page is the first stop when creating your wormhole pro
 
 ![Wormhole Project Page](/img/wormhole-projects/create-wormhole-project/wormhole-project-page/wormhole-project-page.png)
 
+## Create Wormhole Project
+
 In order to create a wormhole project we need to click on the blue "Create Wormhole Project" button. This will open up a new modal screen:
 
 ![Wormhole Project Modal](/img/wormhole-projects/create-wormhole-project/wormhole-project-page/wormhole-modal.png)

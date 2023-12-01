@@ -10,6 +10,8 @@ The **NFT Projects** page is the first stop when creating your project. Here you
 
 ![NFT Project Page](/img/nft-projects/create-nft-project/nft-project-page/nft-project-page.png)
 
+## Create NFT Project
+
 When entering the studio you will land on the NFT project page. You can **create** an NFT project by clicking on the the "Create NFT Project"
 
 ![NFT Project Page With Project](/img/nft-projects/create-nft-project/nft-project-page/nft-project-page-with-project.png)

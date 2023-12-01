@@ -3,6 +3,6 @@
     "position": 3,
     "link": {
         "type": "generated-index",
-        "description": "Upgrade projects allow you to provide users with the ability to upgrade their NFTs based on conditions that you set!"
+        "description": "Upgrade projects allow you to provide users with the ability to upgrade their NFTs based on conditions that you set! This is only possible thanks to the new CIP-68 standard pioneered by Saturn!"
     }
 }
