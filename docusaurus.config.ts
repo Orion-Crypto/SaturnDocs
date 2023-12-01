@@ -75,6 +75,7 @@ const config: Config = {
             logo: {
                 alt: "Saturn Logo",
                 src: "img/Logo.png",
+                href: '/docs/intro',
             },
             items: [
                 {

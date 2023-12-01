@@ -2,11 +2,13 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# Saturn Introduction
 
-Welcome to the Saturn Tutorial where we will show you how to create Smart Contracts and NFTs on the Cardano Blockchain using [Saturn](https://saturnnft.io)!
+Welcome to the [Saturn](https://saturnnft.io)! The #1 Platform to create NFTs and Smart Contracts on the Cardanao Blockchain!
 
-This tutorial will cover how to create an NFT Project on Cardano using the Saturn platform. Along with this, there are tutorials for how to create an upgrade / leveling system for your NFT Project, how to create a Stake Project, and also how to create a Wormhole Project if you have an existing collection that you want to convert to CIP-68!
+In this tutorial, we will show you how to create Smart Contracts and NFT Projects using [Saturn](https://saturnnft.io) as well as teach you how to leverage the full power of our CIP-68 upgrade and leveling system.
+
+Along with the above Saturn tutorials, there are tutorials for how to create a Stake Project and even how to create a Wormhole Project if you have an existing NFT collection that you want to convert to CIP-68!
 
 ![NFT Page](/img/introduction/nft-page.png)
 

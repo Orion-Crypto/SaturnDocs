@@ -4,6 +4,8 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
 import Layout from "@theme/Layout";
 import clsx from "clsx";
+import React from 'react';
+import { Redirect } from '@docusaurus/router';
 
 import styles from "./index.module.css";
 
@@ -34,12 +36,14 @@ export default function Home(): JSX.Element {
     return (
         <Layout
             // title={`${siteConfig.title}`}
-            description="A guide to create Smart Contracts and NFTs on the Cardano Blockchain with Saturn"
-        >
-            <HomepageHeader />
+            description="A guide to create Smart Contracts and NFTs on the Cardano Blockchain with Saturn and CIP-68!"        >
+            <Redirect to="/docs/intro" />;
+
+            {/* Default Home Page is not longer needed */}
+            {/* <HomepageHeader />
             <main>
                 <HomepageFeatures />
-            </main>
+            </main> */}
         </Layout>
     );
 }
