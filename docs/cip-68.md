@@ -25,7 +25,7 @@ Effectively what this means is that CIP-25 cannot be upgraded, no programatic fu
 
 [Saturn](https://saturnnft.io/) was the first NFT creation platform on the Cardano blockchain to rememdy the above issues by implementing **CIP-68** along with a sophisticated leveling and upgrade system. This was used in Februrary 2023 to create the free Moon Blobs which are the first 10k **CIP-68** NFT collection on Cardano.
 
-As of December 2023, Saturn is the only platform on Cardano to support **CIP-68** using secure smart contracts with a built in upgrade and leveling system. The largest projects in the ecosystem such as [The Ape Society](https://www.theapesociety.io/) and [Jelly Cubes](https://blockinvestmentgroup.com/?uid=1669648397873x405895762844057600&tab=project) all use Saturn and our Level / Upgrade system to substantially enhance user engagement with their NFT Projects.
+As of December 2023, Saturn is the only platform on Cardano to support **CIP-68** using secure smart contracts with a built in upgrade and leveling system. The largest projects in the ecosystem such as [The Ape Society](https://www.theapesociety.io/) all use Saturn and our Level / Upgrade system to substantially enhance user engagement with their NFT Projects.
 
 ![CIP-68 Upgrade Moon Blobs Page](/img/cip-68/upgrade-blobs.png)
 

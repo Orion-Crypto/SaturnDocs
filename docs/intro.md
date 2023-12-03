@@ -17,6 +17,6 @@ Here are the links to each Saturn tutorial. We recommend the [NFT Project Tutori
 -   **NFT Project**: The [NFT Project Tutorial](/docs/nft-projects/create-nft-project/nft-project-page.md) will show you how to create your first NFT Project on Cardano!
 -   **Token Project**: The [Token Project Tutorial](/docs/token-projects/create-token-project/token-project-page.md) will show you how to create a Toklen Project on Cardano.
 -   **Upgrade Project**: The [Upgrade Project Tutorial](/docs/upgrade-projects/create-upgrade-project/upgrade-project-page.md) will show you how to create a CIP-68 upgrade and leveling system for an NFT Project on Cardano.
--   **Stake Project**: The [Stake Project Tutorial](/docs/stake-projects/stake-project-page/staking-data-page.md) will show you how to create a Stake Project on Cardano.
+-   **Stake Project**: The [Stake Project Tutorial](/docs/stake-projects/stake-projects-page.md) will show you how to create a Stake Project on Cardano.
 -   **Wormhole Project**: The [Wormhole Project Tutorial](/docs/wormhole-projects/create-wormhole-project/wormhole-project-page.md) will show you how to create a Wormhole Project for an existing NFT Project on Cardano to convert the NFTs to the modern CIP-68 standard!
 -   **API Documentation**: The [Saturn API Documentation](/docs/api-documentation.md) will show you how to leverage the Saturn APIs to create your own customized NFT Minting and Smart Contract Execution experience.
