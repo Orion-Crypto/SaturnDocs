@@ -16,6 +16,8 @@ After getting write access to the [Saturn Documentation Repository](https://gith
 $ pnpm run deploy
 ```
 
+After that we need to change the url in the github pages section of this repo to docs.saturnnft.io.
+
 This will deploy the Saturn documentation page to https://docs.saturnnft.io
 
 ![Saturn Documentation Repository](/static/img/docs-image.png) 
