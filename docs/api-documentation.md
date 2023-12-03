@@ -48,7 +48,7 @@ pnpm dev
 ![Saturn Integration API Key](/img/api-documentation/saturn-api-key.png)
 
 - After we have our API Key, paste it into the Saturn V2 Integration "Mint NFTs" page, connect your wallet, and press the "Mint NFT" button.
-- This will have us execute 2 transaction, 1 to deploy the minting smart contract on the blockchain and 1 right after to mint the NFT.
+- This will have us execute 2 transactions, 1 to deploy the minting smart contract on the blockchain and 1 right after to mint the NFT.
 - **Note**: when you mint your project, you only need to deploy the smart contract once and you can do so in the Saturn app. You do not need to deploy the contract on chain multiple times. 
 
 Here is the code for the 2 graphQL mutations required to **Create an NFT Minting Transaction** and to **Submit an NFT Minting Transaction**:
