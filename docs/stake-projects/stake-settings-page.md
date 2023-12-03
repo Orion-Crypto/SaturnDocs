@@ -42,7 +42,15 @@ Pressing this button will cause a transaction to be generated that, if signed, w
 
 Signing the transaction that appears will take the tokens from your wallet, and place them into the smart contract, where they will be distributed as rewards to those who stake their NFTs.
 
+## Important Notice, Staking NFT's and Transaction Size:
 
+Unlike most staking systems, Saturn uses **datums** placed on the Cardano Blockchain to track the staked NFTs. Because of this, transactions that place these datums can only hold so many inputs at once, and thus there is a set limit to how many NFT's can be **Staked**, **Unstaked**, and **Claimed** at once. 
+
+The suggested limit for **Staking** and **Unstaking** NFT's is **20** at a time, for **Claim** (which simply Unstakes an NFT and then Stakes it again in the same transaction), the suggested limit is **10** NFT's at a time.
+
+## Implementation:
+
+You can find everything you need for implementation of the saturn staking system (along with examples of the various API calls) in the [Saturn Integration Library](https://github.com/Orion-Crypto/Saturn-V2-Integration).
 
 
 
