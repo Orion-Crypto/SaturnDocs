@@ -45,7 +45,7 @@ pnpm dev
 3. Enter the studio and go to the "Settings Page" which is the gear icon on the left hand sidebar.
 4. Click on the "Add API Key" button. Make sure to save this key as you will not be able to view it again (**Note**: the key in the image is revoked)
 
-![Saturn Integration Upgrade](/img/api-documentation/saturn-api-key.png)
+![Saturn Integration API Key](/img/api-documentation/saturn-api-key.png)
 
 - After we have our API Key, paste it into the Saturn V2 Integration "Mint NFTs" page, connect your wallet, and press the "Mint NFT" button.
 - This will have us execute 2 transaction, 1 to deploy the minting smart contract on the blockchain and 1 right after to mint the NFT.
@@ -108,12 +108,13 @@ export const mutateSubmitNFTMintBurnUpdateTransaction = async (input: SubmitNFTM
 
 After minting an NFT, now we want to upgrade the NFT. Make sure to check the console for the Saturn NFT Id that we just minted. Take that NFT Id along with the API Key and navigate to the Upgrade NFTs page.
 
-![Saturn Integration Home](/img/api-documentation/saturn-integration-upgrade.png)
+![Saturn Integration Upgrade](/img/api-documentation/saturn-integration-upgrade.png)
 
 Input the API Key as well as the NFT Id, click "Upgrade NFT" and you will be asked to sign an upgrade transaction! Congrats we have minted and upgraded an NFT! 
 
-The graphQL mutations that allow for minting the NFTs are the same for updating the NFTs to allow for composable transactions. This code is copy and pastable from the integration library so you can customize any type of minting logic you like. You can even create complex gamification and crafting systems by combing Token Project and NFT Project transactions together with the APIs!
+The graphQL mutations that allow for minting the NFTs are the same for updating the NFTs to allow for composable transactions. This code is copy and pastable from the integration library so you can customize any type of minting logic you like. 
 
+You can even create complex gamification and crafting systems by combing Token Project and NFT Project transactions together with the APIs!
 
 ## Discord Server
 
