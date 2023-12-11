@@ -1,0 +1,8 @@
+{
+    "label": "Custodial Wallet",
+    "position": 8,
+    "link": {
+        "type": "generated-index",
+        "description": "Everything you need to know about creating a staking system on Cardano using Saturn!"
+    }
+}
