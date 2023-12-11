@@ -12,7 +12,7 @@ Before we begin, it is important to note the full [api documentation](/docs/api-
 
 We're going to be using the [Saturn Integration Library](https://github.com/Orion-Crypto/Saturn-V2-Integration) to manage our custodial wallets
 
-![Saturn Integration Library](/img/api-documentation/saturn-integration-library.png).
+![Saturn Integration Library](/img/api-documentation/saturn-integration-library.png)
 
 -   First, clone the V2 integration library
 -   Next, follow the readme and run the commands to install the packages and start the dev server. Saturn uses the [pnpm package manager](https://pnpm.io/):
@@ -25,7 +25,7 @@ pnpm dev
 -   Navigate to our local web servers: localhost:3000/
 -   Click on the "Custodial Wallets" button in the Navbar.
 
-![Saturn Integration Mint](/img/api-documentation/saturn-integration-mint.png)
+![Saturn Integration Cutodial Wallet](/img/custodial-wallets/create-custodial-wallet/create-custodial-wallet-page.png)
 
 -   We need to get a preprod Saturn API key by following these steps:
 
@@ -38,6 +38,10 @@ pnpm dev
 
 -   After we have our API Key, paste it into the Saturn V2 Integration "Custodial Wallets" page, connect your wallet, and press the "Create Custodial Wallet" button.
 
-This is the code that is being run (Create custoidal wallet code)
+![Saturn Integration Cutodial Wallet](/img/custodial-wallets/create-custodial-wallet/custodial-wallet-log.png)
+
+Behind the scenes, this api is being called to create the custodial wallet. (**addCustodialWallet**)
+
+![Saturn Integration Cutodial Wallet API](/img/custodial-wallets/create-custodial-wallet/add-custodial-wallet-api.png)
 
 Congratulations! We have created a custodial wallet and we should see the wallet in the list! In the next section we will go over how to delete this wallet
